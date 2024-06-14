@@ -11,17 +11,13 @@ Linked lists are composed of `ListNode` objects, each with two attributes:
 Chaining `ListNode` objects creates a linked list. Here's how to define a `ListNode` class in pseudocode:
 
 ```cpp
-class ListNode {
-public:
-    int val_;
-    ListNode* next = nullptr;
-
-    ListNode(int val) {
-        val_ = val;
-    }
+struct Node { 
+	int data; 
+	Node* next; 
+	
+	Node(int value) : data(value), next(nullptr) {} 
 };
 ```
-
 
 ## Sample Code
 
