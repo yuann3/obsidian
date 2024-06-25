@@ -2,3 +2,5 @@
 
 **Topic**:
 	[[Insertion Sort]]
+	[[Merge Sort]]
+	
